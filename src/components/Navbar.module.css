@@ -1,0 +1,15 @@
+.hrLine {
+  background-color: black;
+  height: 2.4px;
+  width: 0;
+}
+
+ul li:hover .hrLine {
+  width: 100%;
+  transition: width 0.2s ease-in-out;
+}
+
+ul li:not(:hover) .hrLine {
+  width: 0;
+  transition: width 0.2s ease-in-out;
+}
